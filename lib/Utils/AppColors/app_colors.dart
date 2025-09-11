@@ -51,4 +51,8 @@ class AppColors {
   static const Color black700 = Color(0xff242424);
   static const Color black800 = Color(0xff1c1c1c);
   static const Color black900 = Color(0xff151515);
+
+  ///<====================== This is for blue shades =============================>
+  static const Color lightBlue = Color(0xFFADD8E6); // Light Blue
+  static const Color skyBlue = Color(0xFF87CEEB);   // Sky Blue
 }

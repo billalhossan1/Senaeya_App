@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:populer_mems/View/Widgegts/custom_text/custom_text.dart';
 import '../../../utils/AppColors/app_colors.dart';
+import '../custom_text/custom_text.dart';
 
 
 class CustomButton extends StatelessWidget {

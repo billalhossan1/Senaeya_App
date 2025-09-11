@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:populer_mems/Utils/AppIcons/app_icons.dart';
-import 'package:populer_mems/View/Widgegts/custom_text/custom_text.dart';
+import 'package:FoodCrew/Utils/AppIcons/app_icons.dart';
+import 'package:FoodCrew/View/Widgegts/custom_text/custom_text.dart';
 import '../../../Utils/AppImg/app_img.dart';
 import '../../../utils/AppColors/app_colors.dart';
 

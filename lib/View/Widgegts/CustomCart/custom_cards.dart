@@ -10,11 +10,11 @@ class CustomCards extends StatelessWidget {
      padding: EdgeInsets.symmetric(horizontal: 20.w,vertical: 16.h), // Set your desired height
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16.r),
-        color: Color(0xFFFAFAFA), // Background color
+        color: const Color(0xFFFAFAFA), // Background color
         boxShadow: [
           BoxShadow(
             color: Colors.black.withOpacity(0.05), // 5% opacity of black
-            offset: Offset(0, 0), // X and Y offset are both 0
+            offset: const Offset(0, 0), // X and Y offset are both 0
             blurRadius: 7, // Blur radius
             spreadRadius: 0.5, // Spread radius
           ),

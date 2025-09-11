@@ -1,15 +1,11 @@
-import 'package:flutter/material.dart';
+import 'package:FoodCrew/Core/AppRoute/app_route.dart';
+import 'package:FoodCrew/Core/Dependency/dependency.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:populer_mems/Core/AppRoute/app_route.dart';
-import 'package:populer_mems/Core/Dependency/dependency.dart';
-import 'package:populer_mems/View/Widgegts/DeviceUtils/device_utils.dart';
+import 'package:flutter/material.dart';
 
 void main() {
-
-
   WidgetsFlutterBinding.ensureInitialized();
-  DeviceUtils.lockDevicePortrait();
   DependencyInjection di = DependencyInjection();
   //SocketApi.init();
   di.dependencies();
@@ -25,14 +21,12 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       designSize: const Size(375, 812),
       child: GetMaterialApp(
+        initialRoute: AppRoute.splashScreen,
+        getPages: AppRoute.routes,
         debugShowCheckedModeBanner: false,
         defaultTransition: Transition.fadeIn,
         transitionDuration: const Duration(milliseconds: 200),
-        initialRoute:AppRoute.splashScreen,
-        navigatorKey: Get.key,
-        getPages: AppRoute.routes,
       ),
     );
   }
 }
-

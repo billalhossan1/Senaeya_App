@@ -1,9 +1,8 @@
 import 'package:get/get.dart';
-import 'package:populer_mems/Core/AppRoute/app_route.dart';
 
-import 'package:populer_mems/Helper/shared_prefe/shared_prefe.dart';
-import 'package:populer_mems/Utils/AppConst/app_const.dart';
-import 'package:populer_mems/Utils/ToastMsg/toast_message.dart';
+import 'package:FoodCrew/Helper/shared_prefe/shared_prefe.dart';
+import 'package:FoodCrew/Utils/AppConst/app_const.dart';
+import 'package:FoodCrew/Utils/ToastMsg/toast_message.dart';
 
 
 class ApiChecker {

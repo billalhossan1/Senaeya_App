@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.populer_mems"
+    namespace = "com.example.FoodCrew"
     compileSdk = 34
     ndkVersion = flutter.ndkVersion
 
@@ -21,10 +21,10 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.populer_mems"
+        applicationId = "com.example.FoodCrew"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = 23 // Minimum SDK version
+        minSdkVersion = flutter.minSdkVersion // Minimum SDK version
         targetSdk = 34 // Target SDK version
         versionCode = 1 // Version code
         versionName = "1.0" // Version name
