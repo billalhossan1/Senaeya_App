@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
 import 'package:FoodCrew/View/Screens/HomeScreen/home.dart';
 import '../../View/Screens/splash_screen/screen/splash_screen.dart';
-import '../../View/splash_screen/screen/splash_screen.dart';
 
 class AppRoute {
   ///==================== Initial Routes ====================
