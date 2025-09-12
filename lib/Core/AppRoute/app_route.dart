@@ -1,9 +1,9 @@
 import 'package:Senaeya/View/Screens/auth_screens/forgot_screen/forgot_screen.dart';
 import 'package:Senaeya/View/Screens/auth_screens/otp_verification_screen/otp_verification_screen.dart';
 import 'package:get/get.dart';
-import '../../View/Screens/splash_screen/screen/splash_screen.dart';
-import '../../View/Screens/nav_screen/navigation_screen.dart';
 import '../../View/Screens/auth_screens/login_screen/login_screen.dart';
+import '../../View/Screens/nav_screen/navigation_screen.dart';
+import '../../View/Screens/splash_screen/screen/splash_screen.dart';
 
 class AppRoute {
   ///==================== Initial Routes ====================
