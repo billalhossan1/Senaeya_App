@@ -6,6 +6,7 @@ import 'Controller/home_controller.dart';
 import 'package:get/get.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:Senaeya/View/Screens/Menu/menu_drawer/menu_drawer_screen.dart';
+import 'package:Senaeya/View/Screens/Settings/settings.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -22,7 +23,6 @@ class HomeScreen extends StatelessWidget {
           color: const Color(0xFF1766A0),
           child: SafeArea(
             child: Padding(
-
               padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -33,9 +33,20 @@ class HomeScreen extends StatelessWidget {
                       onPressed: () => Scaffold.of(context).openDrawer(),
                     ),
                   ),
-                  const Row(
+                  Row(
                     children: [
-                      Icon(Icons.notifications_none, color: Colors.white, size: 28),
+                      const Icon(Icons.notifications_none, color: Colors.white, size: 28),
+                      SizedBox(width: 16.w),
+                      IconButton(
+                        icon: const Icon(Icons.settings, color: Colors.white, size: 28),
+                        onPressed: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => const SettingsScreen(),
+                            ),
+                          );
+                        },
+                      ),
                     ],
                   ),
                 ],
@@ -147,4 +158,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-

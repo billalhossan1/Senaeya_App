@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class CustomTextField extends StatelessWidget {
+class CustomTextFormField extends StatelessWidget {
   final TextEditingController controller;
   final String hintText;
   final IconData icon;
   final bool obscureText;
   final TextInputType keyboardType;
 
-  const CustomTextField({
+  const CustomTextFormField({
     super.key,
     required this.controller,
     required this.hintText,

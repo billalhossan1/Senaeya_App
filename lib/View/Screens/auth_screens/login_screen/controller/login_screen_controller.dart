@@ -1,3 +1,4 @@
+import 'package:Senaeya/Core/AppRoute/app_route.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:local_auth/local_auth.dart';
@@ -13,9 +14,16 @@ class LoginScreenController extends GetxController {
     rememberMe.value = value ?? false;
   }
 
-  void login() {
-    // TODO: Implement login logic
+  void login() async {
+    isLoading.value = true;
+    // Simulate network delay for demonstration
+    await Future.delayed(const Duration(seconds: 2));
+    Get.offNamed(AppRoute.navScreen);
+    isLoading.value = false;
     // Example: print(phoneController.text);
+  }
+  void forgotPassword(){
+    Get.toNamed(AppRoute.forgetScreen);
   }
 
   Future<void> fingerprintLogin() async {
