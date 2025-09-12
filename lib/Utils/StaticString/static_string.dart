@@ -251,5 +251,5 @@ class AppString {
   static const String home="Home";
   static const String profile="Profile";
   static const String about="About";
-  static const String menu="Menu";
+  static const String menu="menu";
 }

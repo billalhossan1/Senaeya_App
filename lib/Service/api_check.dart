@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 
-import 'package:FoodCrew/Helper/shared_prefe/shared_prefe.dart';
-import 'package:FoodCrew/Utils/AppConst/app_const.dart';
-import 'package:FoodCrew/Utils/ToastMsg/toast_message.dart';
+import 'package:Senaeya/Helper/shared_prefe/shared_prefe.dart';
+import 'package:Senaeya/Utils/AppConst/app_const.dart';
+import 'package:Senaeya/Utils/ToastMsg/toast_message.dart';
 
 
 class ApiChecker {

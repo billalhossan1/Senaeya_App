@@ -5,9 +5,9 @@ import 'package:get/get.dart';
 import 'package:get/get_connect/http/src/request/request.dart';
 import 'package:http/http.dart' as http;
 import 'package:http_parser/http_parser.dart';
-import 'package:FoodCrew/Global/Model/error_response.dart';
-import 'package:FoodCrew/Helper/shared_prefe/shared_prefe.dart';
-import 'package:FoodCrew/Utils/AppConst/app_const.dart';
+import 'package:Senaeya/Global/Model/error_response.dart';
+import 'package:Senaeya/Helper/shared_prefe/shared_prefe.dart';
+import 'package:Senaeya/Utils/AppConst/app_const.dart';
 import 'api_url.dart';
 import 'package:mime/mime.dart';
 

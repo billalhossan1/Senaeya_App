@@ -1,5 +1,5 @@
-import 'package:FoodCrew/Core/AppRoute/app_route.dart';
-import 'package:FoodCrew/Core/Dependency/dependency.dart';
+import 'package:Senaeya/Core/AppRoute/app_route.dart';
+import 'package:Senaeya/Core/Dependency/dependency.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +15,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(

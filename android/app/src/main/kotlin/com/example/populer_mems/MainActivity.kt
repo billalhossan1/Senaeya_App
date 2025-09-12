@@ -1,5 +1,5 @@
-package com.example.FoodCrew
+package com.example.Senaeya
 
-import io.flutter.embedding.android.FlutterActivity
+import io.flutter.embedding.android.FlutterFragmentActivity
 
-class MainActivity: FlutterActivity()
+class MainActivity: FlutterFragmentActivity()

@@ -50,6 +50,7 @@
     <string>We need access to your photo library to save images.</string>
     <key>NSPhotoLibraryAddUsageDescription</key>
      <string>We need permission to save images to your library.</string>
-
+	<key>NSFaceIDUsageDescription</key>
+	<string>We use Face ID to protect your data</string>
 </dict>
 </plist>

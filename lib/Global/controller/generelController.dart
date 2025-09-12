@@ -2,7 +2,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:FoodCrew/View/Widgegts/custom_loader/custom_loader.dart';
+import 'package:Senaeya/View/Widgegts/custom_loader/custom_loader.dart';
 
 class GeneralController extends GetxController {
   ///========================== Show Popup Loader ========================
