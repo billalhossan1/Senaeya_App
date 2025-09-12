@@ -1,3 +1,4 @@
+import 'package:Senaeya/Core/AppRoute/app_route.dart';
 import 'package:get/get.dart';
 
 class SplashScreenController extends GetxController {
@@ -11,7 +12,7 @@ class SplashScreenController extends GetxController {
       animation2.value = 1.0;
     });
     Future.delayed(const Duration(seconds: 2), () {
-      Get.offAllNamed('/homeScreen');
+      Get.offAllNamed(AppRoute.loginScreen);
     });
     super.onInit();
   }

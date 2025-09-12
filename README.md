@@ -1,4 +1,4 @@
-# FoodCrew
+# Senaeya
 
 A new Flutter project.
 
